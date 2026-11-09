@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en" class="loading" data-theme="dark" translate="no">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SteneCorp — Mz Contents, MzDevSpace Upload and DevDomina</title>
+<meta name="description" content="SteneCorp: the organization behind Mz Contents, MzDevSpace Upload and the DevDomina YouTube channel.">
+<meta name="theme-color" content="#0A0E13">
+<meta name="google" content="notranslate">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stenecorp.ryzn.pro/">
+<meta property="og:site_name" content="SteneCorp">
+<meta property="og:image" content="https://stenecorp.ryzn.pro/stenecorp-icon.png">
+<meta name="twitter:card" content="summary">
+<meta property="og:title" content="SteneCorp">
+<meta property="og:description" content="SteneCorp: the organization behind Mz Contents, MzDevSpace Upload and the DevDomina YouTube channel.">
+<link rel="canonical" href="https://stenecorp.ryzn.pro/">
+<link rel="icon" type="image/svg+xml" href="/stenecorp-icon.svg">
+<link rel="icon" type="image/png" sizes="512x512" href="/stenecorp-icon.png">
+<link rel="apple-touch-icon" href="/stenecorp-apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://stenecorp.ryzn.pro/#org","name":"SteneCorp","url":"https://stenecorp.ryzn.pro/","logo":"https://stenecorp.ryzn.pro/stenecorp-icon.png","description":"SteneCorp is the organization behind Mz Contents, MzDevSpace Upload and the DevDomina YouTube channel.","sameAs":["https://www.youtube.com/@DevDomina","https://www.instagram.com/mz_gty"]},{"@type":"WebSite","@id":"https://stenecorp.ryzn.pro/#site","name":"SteneCorp","url":"https://stenecorp.ryzn.pro/","publisher":{"@id":"https://stenecorp.ryzn.pro/#org"}}]}</script>
+<script>document.documentElement.classList.add('js')</script>
+<noscript><style>#loader{display:none!important}html.loading{overflow:auto!important}</style></noscript>
+<style>
+:root{
+  --bg:#0A0E13;--bg2:#0E141B;--surface:#131B24;--surface2:#1A2430;--line:#243040;--text:#EAF0F6;--dim:#8DA0B3;
+  --accent:#2EE6A6;--accent2:#3BC9F5;--ink:#04130D;--glow:rgba(46,230,166,.16);--shadow:0 24px 60px rgba(0,0,0,.45);
+  --display:'Sora','Trebuchet MS',system-ui,sans-serif;--body:'DM Sans',system-ui,sans-serif;--mono:'IBM Plex Mono',ui-monospace,Menlo,Consolas,monospace;
+  --ease:cubic-bezier(.2,.8,.2,1);--rail:76px;color-scheme:dark;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root[data-theme="light"]{
+  --bg:#F5F7F9;--bg2:#EDF1F4;--surface:#FFFFFF;--surface2:#F0F4F7;--line:#DAE2E9;--text:#0C1319;--dim:#566573;
+  --accent:#0A8A5C;--accent2:#0B7FB5;--ink:#FFFFFF;--glow:rgba(10,138,92,.14);--shadow:0 24px 60px rgba(20,40,60,.14);color-scheme:light}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg);scroll-behavior:smooth;scroll-padding-top:90px}
+html.loading{overflow:hidden}
+body{font-family:var(--body);background:var(--bg);color:var(--text);line-height:1.6;font-size:17px;overflow-x:hidden;transition:background .4s,color .4s}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit}
+svg{display:block}
+.ic{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:0 0 auto}
+a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:10px}
+.wrap{max-width:1140px;margin:0 auto;padding:0 28px;position:relative}
+.mono{font-family:var(--mono)}
+
+/* ---------- loader ---------- */
+#loader{position:fixed;inset:0;z-index:200;background:var(--bg);display:grid;place-items:center;transition:transform .9s var(--ease),opacity .5s .4s;animation:loaderOut .6s 9s forwards}
+#loader.done{transform:translateY(-100%);opacity:0;pointer-events:none}
+@keyframes loaderOut{to{opacity:0;visibility:hidden}}
+.ld{width:min(300px,76vw);display:grid;gap:22px;justify-items:center}
+.ld svg.mk{width:92px;height:92px;overflow:visible}
+.ld .mk .f{opacity:0;transform-box:fill-box;transform-origin:center;animation:facet .7s var(--ease) forwards}
+.ld .mk .f1{animation-delay:.15s}.ld .mk .f2{animation-delay:.5s}.ld .mk .f3{animation-delay:.85s}
+.ld .mk .f4{animation-delay:1.15s}
+@keyframes facet{from{opacity:0;transform:translateY(10px) scale(.82)}to{opacity:1;transform:none}}
+.ld b{font:800 28px var(--display);letter-spacing:-.04em}
+.track{width:100%;height:6px;border-radius:9px;background:var(--surface2);overflow:hidden}
+.fill{height:100%;transform-origin:left;transform:scaleX(0);background:linear-gradient(90deg,var(--accent),var(--accent2));border-radius:9px}
+.ld .row{width:100%;display:flex;justify-content:space-between;font:500 13px var(--mono);color:var(--dim)}
+
+/* ---------- barra lateral ---------- */
+.rail{position:fixed;left:0;top:0;bottom:0;width:var(--rail);z-index:90;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-right:1px solid var(--line);
+  display:flex;flex-direction:column;padding:18px 12px;padding-top:calc(18px + env(safe-area-inset-top,0px));gap:8px;overflow:hidden;transition:width .35s var(--ease),transform .35s var(--ease),box-shadow .35s}
+.rail:hover,.rail:focus-within{width:240px;box-shadow:var(--shadow)}
+.rlogo{display:flex;align-items:center;gap:12px;padding:4px 6px 16px;font:800 19px var(--display);letter-spacing:-.04em;white-space:nowrap}
+.rlogo svg{width:40px;height:40px;flex:0 0 40px}
+.rl{opacity:0;transition:opacity .25s}
+.rail:hover .rl,.rail:focus-within .rl{opacity:1;transition-delay:.1s}
+.rnav{display:grid;gap:4px}
+.rnav a{position:relative;display:flex;align-items:center;gap:14px;padding:11px 14px;border-radius:14px;color:var(--dim);font-weight:500;font-size:15.5px;white-space:nowrap;transition:background .2s,color .2s}
+.rnav a:hover{background:var(--surface2);color:var(--text)}
+.rnav a.on{background:var(--surface);color:var(--accent);box-shadow:inset 0 0 0 1px var(--line)}
+.rnav a.on::before{content:"";position:absolute;left:-12px;top:10px;bottom:10px;width:4px;border-radius:0 4px 4px 0;background:var(--accent)}
+.rfoot{margin-top:auto;display:grid;gap:10px}
+.tbtn{display:flex;align-items:center;gap:14px;padding:11px 14px;border-radius:14px;border:1px solid var(--line);background:var(--surface);cursor:pointer;color:var(--dim);font-weight:500;font-size:15px;white-space:nowrap;transition:all .2s}
+.tbtn:hover{color:var(--accent);border-color:var(--accent)}
+.tbtn .ic{transition:transform .5s var(--ease)}
+.tbtn:hover .ic{transform:rotate(25deg) scale(1.1)}
+:root[data-theme="dark"] .t-moon,:root[data-theme="light"] .t-sun{display:none}
+.lang{display:flex;gap:4px;padding:4px;border-radius:14px;background:var(--surface);border:1px solid var(--line)}
+.lang button{flex:1;border:0;background:none;border-radius:10px;padding:7px 0;font:600 12.5px var(--mono);color:var(--dim);cursor:pointer;transition:all .2s}
+.lang button:hover{color:var(--text)}
+.lang button[aria-pressed="true"]{background:var(--accent);color:var(--ink)}
+.mbar{display:none}
+.scrim{display:none}
+
+main,footer{margin-left:var(--rail)}
+
+/* ---------- botões, cards ---------- */
+.btn{display:inline-flex;align-items:center;gap:10px;font:700 15.5px var(--display);padding:14px 24px;border-radius:14px;border:1px solid var(--line);background:var(--surface);transition:transform .25s var(--ease),box-shadow .25s,border-color .25s,background .25s;cursor:pointer}
+.btn:hover{transform:translateY(-3px);border-color:var(--accent)}
+.btn .ic{width:18px;height:18px;transition:transform .25s var(--ease)}
+.btn:hover .ic{transform:translate(3px,-3px)}
+.btn.pri{background:linear-gradient(120deg,var(--accent),var(--accent2));color:var(--ink);border-color:transparent;box-shadow:0 12px 30px var(--glow)}
+.btn.pri:hover{box-shadow:0 16px 40px var(--glow)}
+.card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:30px;overflow:hidden;transition:border-color .3s,transform .4s var(--ease),box-shadow .4s}
+.card::before,.tile::before,.ct-s::before,.hb::before{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(380px circle at var(--mx,50%) var(--my,0%),var(--glow),transparent 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.card:hover::before,.tile:hover::before,.ct-s:hover::before,.hb:hover::before{opacity:1}
+.card:hover{border-color:color-mix(in srgb,var(--accent) 50%,var(--line));box-shadow:var(--shadow)}
+.ibox{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:var(--surface2);border:1px solid var(--line);color:var(--accent);transition:all .35s var(--ease)}
+.ibox .ic{width:24px;height:24px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:150px 0 70px;min-height:100vh;display:flex;align-items:center;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(var(--line) 1.2px,transparent 1.3px);background-size:26px 26px;mask-image:radial-gradient(ellipse 70% 70% at 50% 40%,#000 20%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse 70% 70% at 50% 40%,#000 20%,transparent 75%);opacity:.7}
+.orb{position:absolute;border-radius:50%;filter:blur(70px);opacity:.5;pointer-events:none;animation:drift 16s ease-in-out infinite}
+.orb.a{width:380px;height:380px;background:var(--glow);right:6%;top:8%}
+.orb.b{width:300px;height:300px;background:color-mix(in srgb,var(--accent2) 18%,transparent);left:2%;bottom:6%;animation-delay:-8s}
+@keyframes drift{50%{transform:translate(40px,-30px) scale(1.1)}}
+.hgrid{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center;width:100%}
+.badge{display:inline-flex;align-items:center;gap:10px;font:500 13px var(--mono);color:var(--dim);padding:7px 14px;border-radius:99px;border:1px solid var(--line);background:var(--surface)}
+.badge i{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 var(--glow);animation:ping 2s infinite}
+@keyframes ping{70%{box-shadow:0 0 0 9px transparent}100%{box-shadow:0 0 0 0 transparent}}
+h1{font:800 clamp(40px,6.6vw,84px)/1.08 var(--display);letter-spacing:-.045em;margin:24px 0 22px}
+h1 .ln{display:inline-block}
+.rot{display:inline-block;vertical-align:bottom;height:1.14em;overflow:hidden;padding:0 .24em;border-radius:.22em;background:linear-gradient(120deg,var(--accent),var(--accent2));color:var(--ink);transform:rotate(-2.2deg);transition:width .6s var(--ease);box-sizing:content-box;margin:0 .04em}
+.rot-list{display:flex;flex-direction:column;align-items:flex-start;transform:translateY(calc(var(--i,0) * -1.14em));transition:transform .65s var(--ease)}
+.rot-list span{display:block;height:1.14em;line-height:1.14em;white-space:nowrap}
+.hero p.lead{font-size:clamp(17px,1.9vw,20px);color:var(--dim);max-width:34em}
+.hero p.lead strong{color:var(--text);font-weight:600}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+
+.brand{display:flex;align-items:center;gap:16px;font:800 clamp(32px,4.8vw,56px)/1 var(--display);letter-spacing:-.045em}
+.brand svg{width:clamp(46px,6vw,66px);height:clamp(46px,6vw,66px);flex:0 0 auto}
+.stage{position:relative;height:430px;perspective:900px}
+.hb{position:absolute;display:flex;align-items:center;gap:16px;width:74%;padding:18px 20px;border-radius:22px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);overflow:hidden;
+  transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));animation:float 6s ease-in-out infinite;transition:border-color .3s}
+.hb:hover{border-color:var(--accent)}
+.hb:hover .ibox{background:var(--accent);color:var(--ink);transform:rotate(-8deg) scale(1.08)}
+.hb b{display:block;font:700 18px var(--display);letter-spacing:-.02em;line-height:1.25}
+.hb small{color:var(--dim);font-size:14px}
+.hb em{margin-left:auto;font:500 12px var(--mono);font-style:normal;color:var(--accent);display:flex;align-items:center;gap:7px}
+.hb em::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.hb.p1{left:0;top:10px}
+.hb.p2{right:0;top:150px;animation-delay:-2s}
+.hb.p3{left:4%;top:290px;animation-delay:-4s}
+@keyframes float{50%{translate:0 -12px}}
+.code-badge{position:absolute;right:6%;top:-6px;font:700 22px var(--mono);color:var(--accent);background:var(--surface2);border:1px solid var(--line);padding:8px 14px;border-radius:14px;animation:float 5s -1s ease-in-out infinite}
+
+/* ---------- seções ---------- */
+.sec{padding-top:120px}
+.sh{margin-bottom:38px}
+.h2{font:800 clamp(30px,4.4vw,50px)/1.08 var(--display);letter-spacing:-.04em}
+.sub{color:var(--dim);margin-top:12px;max-width:34em;font-size:18px}
+
+.bento{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+.c-mz{grid-column:span 7;grid-row:span 2;display:flex;flex-direction:column}
+.c-up{grid-column:span 5}
+.c-yt{grid-column:span 5}
+.ch{display:flex;align-items:center;gap:16px;margin-bottom:16px}
+.ch h3{font:800 clamp(24px,3vw,32px)/1.1 var(--display);letter-spacing:-.035em}
+.url{font:500 12.5px var(--mono);color:var(--dim);display:block;margin-top:2px;overflow-wrap:anywhere}
+.card p.d{color:var(--dim);max-width:40em}
+.card p.d strong{color:var(--text);font-weight:600}
+.card:hover .ch .ibox{background:var(--accent);color:var(--ink);transform:rotate(-8deg) scale(1.06)}
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:24px 0;flex:1;grid-auto-rows:1fr}
+.tile{position:relative;display:flex;align-items:center;gap:14px;padding:16px;border-radius:18px;background:var(--surface2);border:1px solid var(--line);overflow:hidden;transition:transform .3s var(--ease),border-color .3s,background .3s}
+.tile:last-child{grid-column:1/-1}
+.tile:hover{transform:translateY(-5px);border-color:var(--accent)}
+.tile .ibox{width:44px;height:44px;border-radius:13px;background:var(--surface)}
+.tile:hover .ibox{background:var(--accent);color:var(--ink);transform:rotate(-8deg) scale(1.1)}
+.tile b{display:block;font:700 16px var(--display);letter-spacing:-.02em;line-height:1.25}
+.tile small{display:block;color:var(--dim);font-size:13.5px;line-height:1.35;margin-top:2px}
+.tile .go{margin-left:auto;color:var(--accent);opacity:0;transform:translate(-6px,6px);transition:all .3s var(--ease)}
+.tile:hover .go{opacity:1;transform:none}
+.card .btn{align-self:flex-start}
+
+.flow{display:flex;align-items:center;gap:10px;margin:22px 0 8px}
+.fchips{display:grid;gap:8px}
+.fchip{display:flex;align-items:center;gap:9px;font:500 12.5px var(--mono);padding:9px 12px;border-radius:11px;background:var(--surface2);border:1px solid var(--line);white-space:nowrap}
+.fchip .ic{width:16px;height:16px;color:var(--accent)}
+.wire{position:relative;flex:1;height:2px;min-width:26px;background:repeating-linear-gradient(90deg,var(--line) 0 6px,transparent 6px 12px)}
+.wire i{position:absolute;top:-4px;left:0;width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 14px var(--accent);animation:packet 2.4s linear infinite}
+.wire.w2 i{animation-delay:-1.2s}
+@keyframes packet{0%{left:0;opacity:0}15%{opacity:1}85%{opacity:1}100%{left:calc(100% - 10px);opacity:0}}
+.gh{font:700 13px var(--display);padding:10px 12px;border-radius:12px;background:var(--surface2);border:1px solid var(--line)}
+.lchip{font:600 12.5px var(--mono);padding:10px 12px;border-radius:11px;border:1px solid var(--accent);color:var(--accent);background:color-mix(in srgb,var(--accent) 8%,transparent);white-space:nowrap}
+.steps{list-style:none;counter-reset:s;display:grid;gap:8px;margin:14px 0 22px}
+.steps li{counter-increment:s;display:flex;gap:12px;align-items:center;font-size:15.5px;color:var(--dim)}
+.steps li::before{content:counter(s);flex:0 0 26px;height:26px;border-radius:50%;background:var(--surface2);border:1px solid var(--line);display:grid;place-items:center;font:600 12px var(--mono);color:var(--accent)}
+
+.vids{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0 22px}
+.vid{display:block}
+.thumb{position:relative;aspect-ratio:16/10;border-radius:16px;background:var(--surface2);border:1px solid var(--line);overflow:hidden;display:grid;place-items:center;transition:transform .35s var(--ease),border-color .3s}
+.vid:hover .thumb{transform:translateY(-4px) rotate(-1deg);border-color:var(--accent)}
+.code{position:absolute;inset:12px 12px auto 12px;display:grid;gap:6px}
+.code i{display:block;height:5px;border-radius:3px;background:var(--line)}
+.code i:nth-child(1){width:55%}.code i:nth-child(2){width:80%;background:color-mix(in srgb,var(--accent) 45%,var(--line))}.code i:nth-child(3){width:38%}
+.pl{position:relative;width:42px;height:42px;border-radius:50%;background:var(--accent);margin-top:18px}
+.pl::after{content:"";position:absolute;left:16px;top:12px;border-left:13px solid var(--ink);border-top:9px solid transparent;border-bottom:9px solid transparent}
+.vid:hover .pl{animation:pulse 1.2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 var(--glow)}100%{box-shadow:0 0 0 16px transparent}}
+.vid b{display:block;font:700 14.5px var(--display);letter-spacing:-.02em;margin-top:10px;line-height:1.3}
+.vid small{color:var(--dim);font-size:13px}
+
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.three .card{padding:28px}
+.three .ibox{width:56px;height:56px;border-radius:18px;margin-bottom:22px}
+.three .ibox .ic{width:28px;height:28px}
+.three .card:hover .ibox{background:var(--accent);color:var(--ink);transform:rotate(-8deg) scale(1.08)}
+.three h3{font:800 24px var(--display);letter-spacing:-.03em;margin-bottom:8px}
+.three p{color:var(--dim);font-size:16px}
+
+.ctgrid{display:grid;grid-template-columns:1.25fr 1fr;gap:18px}
+.ct-main{position:relative;border-radius:28px;padding:40px;background:linear-gradient(135deg,var(--accent),var(--accent2));color:var(--ink);display:flex;flex-direction:column;gap:14px;justify-content:flex-end;min-height:340px;overflow:hidden}
+.ct-main::after{content:"</>";position:absolute;right:26px;top:14px;font:800 clamp(70px,11vw,130px)/1 var(--mono);opacity:.16;letter-spacing:-.06em;animation:float 7s ease-in-out infinite}
+.ct-main h2{font:800 clamp(30px,4vw,46px)/1.05 var(--display);letter-spacing:-.04em;max-width:11em;position:relative}
+.ct-main p{max-width:30em;opacity:.85;position:relative}
+.ct-main .btn{align-self:flex-start;background:var(--ink);color:var(--text);border-color:var(--ink);position:relative}
+:root[data-theme="light"] .ct-main .btn{background:#0C1319;color:#fff}
+.ctl{display:grid;gap:12px;grid-auto-rows:1fr}
+.ct-s{position:relative;display:flex;align-items:center;gap:16px;padding:20px;border-radius:22px;background:var(--surface);border:1px solid var(--line);overflow:hidden;transition:transform .3s var(--ease),border-color .3s}
+.ct-s:hover{transform:translateX(6px);border-color:var(--accent)}
+.ct-s:hover .ibox{background:var(--accent);color:var(--ink);transform:rotate(-8deg)}
+.ct-s b{display:block;font:700 17px var(--display);letter-spacing:-.02em}
+.ct-s small{color:var(--dim);font-size:14px}
+.ct-s .go{margin-left:auto;color:var(--dim);transition:all .3s}
+.ct-s:hover .go{color:var(--accent);transform:translate(3px,-3px)}
+
+footer{margin-top:130px;border-top:1px solid var(--line);padding:60px 0 30px;color:var(--dim);font-size:15px;background:linear-gradient(180deg,transparent,var(--bg2))}
+.fgrid{display:grid;grid-template-columns:1.5fr repeat(4,1fr);gap:36px}
+.fbrand .rlogo{padding:0 0 14px;color:var(--text)}
+.fbrand p{max-width:22em;line-height:1.6}
+.fcol h4{font:600 12.5px var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--text);margin-bottom:16px}
+.fcol ul{list-style:none;display:grid;gap:11px}
+.fcol a{display:inline-block;transition:color .2s,transform .25s var(--ease)}
+.fcol a:hover{color:var(--accent);transform:translateX(4px)}
+.fbot{margin-top:48px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px 24px;flex-wrap:wrap;font-size:14px}
+.credits b{color:var(--text);font-weight:600}
+
+.totop{position:fixed;right:22px;bottom:calc(22px + env(safe-area-inset-bottom,0px));z-index:70;width:46px;height:46px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--accent);display:grid;place-items:center;cursor:pointer;opacity:0;transform:translateY(14px);pointer-events:none;transition:opacity .3s,transform .3s var(--ease),border-color .2s,box-shadow .2s}
+.totop.show{opacity:1;transform:none;pointer-events:auto}
+.totop:hover{border-color:var(--accent);box-shadow:0 10px 28px var(--glow)}
+
+/* ---------- aparecer ao rolar ---------- */
+.js .rv{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .8s var(--ease);transition-delay:var(--d,0s)}
+.js .rv.in{opacity:1;transform:none}
+
+/* ---------- responsivo ---------- */
+@media (max-width:1000px){
+  .hgrid{grid-template-columns:1fr;gap:44px}
+  .stage{height:auto;display:grid;gap:14px;perspective:none}
+  .hb{position:relative;width:100%;left:auto!important;right:auto!important;top:auto!important;transform:none}
+  .code-badge{display:none}
+  .c-mz,.c-up,.c-yt{grid-column:1/-1;grid-row:auto}
+  .three{grid-template-columns:1fr}
+  .ctgrid{grid-template-columns:1fr}
+  .fgrid{grid-template-columns:1fr 1fr}
+  .fbrand{grid-column:1/-1}
+}
+@media (max-width:900px){
+  :root{--rail:0px}
+  .mbar{display:flex;position:fixed;top:0;left:0;right:0;z-index:80;align-items:center;justify-content:space-between;padding:12px 18px;padding-top:calc(12px + env(safe-area-inset-top,0px));background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+  .mbar .rlogo{padding:0}.mbar .rlogo svg{width:34px;height:34px;flex-basis:34px}
+  .burger{width:42px;height:42px;border-radius:12px;border:1px solid var(--line);background:var(--surface);display:grid;place-items:center;cursor:pointer}
+  .rail{width:270px;transform:translateX(-102%);z-index:120;background:var(--bg)}
+  .rail:hover,.rail:focus-within{width:270px}
+  .rail.open{transform:none;box-shadow:var(--shadow)}
+  .rail .rl{opacity:1}
+  .scrim{display:block;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:110;opacity:0;pointer-events:none;transition:opacity .3s}
+  .scrim.show{opacity:1;pointer-events:auto}
+  .hero{padding:120px 0 60px;min-height:auto}
+  .sec{padding-top:90px}
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .wrap{padding:0 18px}
+  .card{padding:22px}
+  .tiles{grid-template-columns:1fr}
+  .tile:last-child{grid-column:auto}
+  .vids{grid-template-columns:1fr}
+  .ct-main{padding:28px}
+  .flow{flex-wrap:wrap}
+  .fgrid{grid-template-columns:1fr}
+  .fbot{flex-direction:column;align-items:flex-start}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition-duration:.01ms!important;transition-delay:0s!important}
+  .js .rv{opacity:1;transform:none}
+  .ld .mk .f{opacity:1!important}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></symbol>
+  <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M7 18a4.5 4.5 0 0 1-.6-8.96A6 6 0 0 1 18 10a4 4 0 0 1-1 8H7z"/><path d="M12 17v-6M9.5 13.5L12 11l2.5 2.5"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="4"/><path d="M10 9.5v5l4.5-2.5z"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5z"/><path d="M3 13l9 5 9-5"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H10l-6 4V5z"/><path d="M8.5 10h7"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5z"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+  <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="13" rx="2"/><path d="M12 8v13M3 13h18M12 8c-3 0-5-3-3-4s3 2 3 4zm0 0c3 0 5-3 3-4s-3 2-3 4z"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></symbol>
+  <symbol id="i-browser" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></symbol>
+  <symbol id="i-bot" viewBox="0 0 24 24"><rect x="4" y="8" width="16" height="12" rx="4"/><path d="M12 8V4M9 13h.01M15 13h.01M9 17h6"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5z"/><path d="M8 7h7"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="18" cy="18" r="2.5"/><path d="M8.2 10.8l7.6-3.6M8.2 13.2l7.6 3.6"/></symbol>
+  <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-9 9"/></symbol>
+  <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V6l11-2v12"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></symbol>
+  <symbol id="logo" viewBox="0 0 48 48"><path d="M16 5L27 7.2 25 21 5 22z" fill="#7BF5CF"/><path d="M5 22L25 21 22 41.9 13 41z" fill="#2EE6A6"/><g transform="translate(1.5 -4)"><path d="M27 7.2L36 9 43 26 25 21z" fill="#9BE7FF"/><path d="M25 21L43 26 33 43 22 41.9z" fill="#3BC9F5"/></g></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+  <linearGradient id="gmk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2EE6A6"/><stop offset="1" stop-color="#3BC9F5"/></linearGradient>
+</defs></svg>
+
+<!-- carregando -->
+<div id="loader" role="status" aria-live="polite">
+  <div class="ld">
+    <svg class="mk" viewBox="0 0 48 48" aria-hidden="true"><path class="f f1" d="M5 22L25 21 22 41.9 13 41z" fill="#2EE6A6"/><path class="f f2" d="M16 5L27 7.2 25 21 5 22z" fill="#7BF5CF"/><g transform="translate(1.5 -4)"><path class="f f3" d="M25 21L43 26 33 43 22 41.9z" fill="#3BC9F5"/><path class="f f4" d="M27 7.2L36 9 43 26 25 21z" fill="#9BE7FF"/></g></svg>
+    <b>SteneCorp</b>
+    <div class="track"><div class="fill" id="bar"></div></div>
+    <div class="row"><span data-i="ld">loading</span><span id="pct">0%</span></div>
+  </div>
+</div>
+
+<!-- barra superior (celular) -->
+<div class="mbar">
+  <a class="rlogo" href="#home"><svg viewBox="0 0 48 48" aria-hidden="true"><use href="#logo"/></svg>SteneCorp</a>
+  <button class="burger" id="burger" type="button" aria-label="Menu" aria-controls="rail" aria-expanded="false"><svg class="ic"><use href="#i-menu"/></svg></button>
+</div>
+<div class="scrim" id="scrim"></div>
+
+<!-- barra lateral -->
+<aside class="rail" id="rail">
+  <a class="rlogo" href="#home"><svg viewBox="0 0 48 48" aria-hidden="true"><use href="#logo"/></svg><span class="rl">SteneCorp</span></a>
+  <nav class="rnav" id="rnav" aria-label="Sections">
+    <a href="#home" class="on"><svg class="ic"><use href="#i-home"/></svg><span class="rl" data-i="n_home">Home</span></a>
+    <a href="#mz"><svg class="ic"><use href="#i-bag"/></svg><span class="rl">Mz Contents</span></a>
+    <a href="#upload"><svg class="ic"><use href="#i-cloud"/></svg><span class="rl">Upload</span></a>
+    <a href="#youtube"><svg class="ic"><use href="#i-play"/></svg><span class="rl">YouTube</span></a>
+    <a href="#about"><svg class="ic"><use href="#i-layers"/></svg><span class="rl" data-i="n_about">What we do</span></a>
+    <a href="#contact"><svg class="ic"><use href="#i-chat"/></svg><span class="rl" data-i="n_contact">Contact</span></a>
+  </nav>
+  <div class="rfoot">
+    <button class="tbtn" id="theme" type="button"><svg class="ic t-sun"><use href="#i-sun"/></svg><svg class="ic t-moon"><use href="#i-moon"/></svg><span class="rl" data-i="n_theme">Switch theme</span></button>
+    <div class="lang" role="group" aria-label="Language"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="pt" aria-pressed="false">PT</button></div>
+  </div>
+</aside>
+
+<main>
+
+  <header class="hero" id="home">
+    <div class="orb a"></div><div class="orb b"></div>
+    <div class="wrap hgrid">
+      <div>
+        <div class="brand rv"><svg viewBox="0 0 48 48" aria-hidden="true"><use href="#logo"/></svg><span>SteneCorp</span></div>
+        <h1 class="rv" style="--d:.08s" id="h1" aria-label="We build sites, bots, tools and APIs that go live.">
+          <span class="ln" data-i="h1a" aria-hidden="true">We build</span>
+          <span class="rot notranslate" id="rot" translate="no" aria-hidden="true"><span class="rot-list" id="rotlist"><span>sites</span><span>bots</span><span>tools</span><span>APIs</span></span></span>
+          <span class="ln" data-i="h1b" aria-hidden="true">that go live.</span>
+        </h1>
+        <p class="lead rv" style="--d:.16s" data-i="hero_p">SteneCorp is the organization behind <strong>Mz Contents</strong>, <strong>MzDevSpace Upload</strong> and the <strong>DevDomina</strong> channel. One place for everything we make.</p>
+        <div class="cta rv" style="--d:.24s">
+          <a class="btn pri" href="#mz"><span data-i="cta1">See our sites</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+          <a class="btn" href="https://www.youtube.com/@DevDomina" target="_blank" rel="noopener"><span data-i="cta2">Watch on YouTube</span><svg class="ic"><use href="#i-play"/></svg></a>
+        </div>
+      </div>
+
+      <div class="stage rv" style="--d:.2s" id="stage">
+        <div class="code-badge" aria-hidden="true">{ }</div>
+        <a class="hb p1" href="#mz"><span class="ibox"><svg class="ic"><use href="#i-bag"/></svg></span><span><b>Mz Contents</b><small data-i="hb1">store, board, API</small></span><em data-i="live">live</em></a>
+        <a class="hb p2" href="#upload"><span class="ibox"><svg class="ic"><use href="#i-cloud"/></svg></span><span><b>MzDevSpace</b><small data-i="hb2">image and audio links</small></span><em data-i="live">live</em></a>
+        <a class="hb p3" href="#youtube"><span class="ibox"><svg class="ic"><use href="#i-play"/></svg></span><span><b>DevDomina</b><small data-i="hb3">videos for devs</small></span><em>YouTube</em></a>
+      </div>
+    </div>
+  </header>
+
+  <section class="sec" id="sites"><div class="wrap">
+    <div class="sh rv"><h2 class="h2" data-i="sites_h">Our sites</h2><p class="sub" data-i="sites_p">Each one does one thing. Use them separately: they all belong to SteneCorp.</p></div>
+
+    <div class="bento">
+
+      <article class="card c-mz rv" id="mz">
+        <div class="ch"><span class="ibox"><svg class="ic"><use href="#i-bag"/></svg></span><div><h3>Mz Contents</h3><span class="url">mzcontents.dpdns.org</span></div></div>
+        <p class="d" data-i="mz_p">Our main site. Shop in the <strong>store</strong>, grab free resources from the <strong>board</strong>, use the <strong>API</strong> in your projects, or order a <strong>site or bot</strong> from us.</p>
+        <div class="tiles">
+          <a class="tile" href="https://mzcontents.dpdns.org/produtos"><span class="ibox"><svg class="ic"><use href="#i-bag"/></svg></span><span><b data-i="tl_store">Store</b><small data-i="d_store">products and packs</small></span><svg class="ic go"><use href="#i-arrow"/></svg></a>
+          <a class="tile" href="https://mzcontents.dpdns.org/mural"><span class="ibox"><svg class="ic"><use href="#i-gift"/></svg></span><span><b data-i="tl_board">Free board</b><small data-i="d_board">free resources, nothing to pay</small></span><svg class="ic go"><use href="#i-arrow"/></svg></a>
+          <a class="tile" href="https://mzcontents.dpdns.org/mz-apis"><span class="ibox"><svg class="ic"><use href="#i-code"/></svg></span><span><b>API</b><small data-i="d_api">ready for your own projects</small></span><svg class="ic go"><use href="#i-arrow"/></svg></a>
+          <a class="tile" href="https://mzcontents.dpdns.org/criar-site"><span class="ibox"><svg class="ic"><use href="#i-browser"/></svg></span><span><b data-i="tl_site">Site building</b><small data-i="d_site">build your own from scratch</small></span><svg class="ic go"><use href="#i-arrow"/></svg></a>
+          <a class="tile" href="https://mzcontents.dpdns.org/bot-personalizado"><span class="ibox"><svg class="ic"><use href="#i-bot"/></svg></span><span><b data-i="tl_bot">Bot building</b><small data-i="d_bot">a custom bot made for you</small></span><svg class="ic go"><use href="#i-arrow"/></svg></a>
+        </div>
+        <a class="btn pri" href="https://mzcontents.dpdns.org/"><span data-i="mz_btn">Open Mz Contents</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+
+      <article class="card c-up rv" id="upload" style="--d:.1s">
+        <div class="ch"><span class="ibox"><svg class="ic"><use href="#i-cloud"/></svg></span><div><h3>MzDevSpace</h3><span class="url">Upload · mz-dev-cloud.github.io</span></div></div>
+        <p class="d" data-i="up_p">Image and audio hosting that runs on GitHub. Upload a file and get a link you can use anywhere.</p>
+        <div class="flow" aria-hidden="true">
+          <div class="fchips"><span class="fchip"><svg class="ic"><use href="#i-image"/></svg>image.png</span><span class="fchip"><svg class="ic"><use href="#i-music"/></svg>audio.mp3</span></div>
+          <span class="wire"><i></i></span><span class="gh">GitHub</span><span class="wire w2"><i></i></span>
+          <span class="lchip" data-i="lchip">direct link</span>
+        </div>
+        <ol class="steps">
+          <li data-i="s1">Upload your file</li><li data-i="s2">It is stored on GitHub</li><li data-i="s3">Copy the direct link and use it anywhere</li>
+        </ol>
+        <a class="btn pri" href="https://mz-dev-cloud.github.io/mzdevspace/upload.html" target="_blank" rel="noopener"><span data-i="up_btn">Open Upload</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+
+      <article class="card c-yt rv" id="youtube" style="--d:.18s">
+        <div class="ch"><span class="ibox"><svg class="ic"><use href="#i-play"/></svg></span><div><h3>DevDomina</h3><span class="url">youtube.com/@DevDomina</span></div></div>
+        <p class="d" data-i="yt_p">Videos for learning by doing: running a WhatsApp bot on Termux and using GitHub tools the right way.</p>
+        <div class="vids">
+          <a class="vid" href="https://www.youtube.com/@DevDomina" target="_blank" rel="noopener"><div class="thumb"><div class="code"><i></i><i></i><i></i></div><span class="pl"></span></div><b data-i="v1">WhatsApp bot on Termux</b><small data-i="v1d">from zero to running</small></a>
+          <a class="vid" href="https://www.youtube.com/@DevDomina" target="_blank" rel="noopener"><div class="thumb"><div class="code"><i></i><i></i><i></i></div><span class="pl"></span></div><b data-i="v2">GitHub, the right way</b><small data-i="v2d">tools without the headache</small></a>
+        </div>
+        <a class="btn pri" href="https://www.youtube.com/@DevDomina" target="_blank" rel="noopener"><span data-i="yt_btn">Visit the channel</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      </article>
+
+    </div>
+  </div></section>
+
+  <section class="sec" id="about"><div class="wrap">
+    <div class="sh rv"><h2 class="h2" data-i="ab_h">What we do</h2><p class="sub" data-i="ab_p">We want building on the internet to be easier.</p></div>
+    <div class="three">
+      <article class="card rv"><span class="ibox"><svg class="ic"><use href="#i-code"/></svg></span><h3 data-i="ab1">Build</h3><p data-i="ab1p">Sites and bots made to order, from the first sketch to going live.</p></article>
+      <article class="card rv" style="--d:.1s"><span class="ibox"><svg class="ic"><use href="#i-share"/></svg></span><h3 data-i="ab2">Share</h3><p data-i="ab2p">Free resources, an API and file hosting with direct links.</p></article>
+      <article class="card rv" style="--d:.2s"><span class="ibox"><svg class="ic"><use href="#i-book"/></svg></span><h3 data-i="ab3">Teach</h3><p data-i="ab3p">Videos that show how to run bots and use GitHub without the headache.</p></article>
+    </div>
+  </div></section>
+
+  <section class="sec" id="contact"><div class="wrap">
+    <div class="ctgrid">
+      <div class="ct-main rv">
+        <h2 data-i="ct_h">Got an idea? Let's build it.</h2>
+        <p data-i="ct_p">Tell us what you want to create on WhatsApp and we will reply with the next steps.</p>
+        <a class="btn" id="wa" data-wa href="https://wa.me/558276021198" target="_blank" rel="noopener"><span data-i="ct_wa">Message us on WhatsApp</span><svg class="ic"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="ctl">
+        <a class="ct-s rv" href="https://www.instagram.com/mz_gty" target="_blank" rel="noopener" style="--d:.08s"><span class="ibox"><svg class="ic"><use href="#i-insta"/></svg></span><span><b>Instagram</b><small>@mz_gty</small></span><svg class="ic go"><use href="#i-arrow"/></svg></a>
+        <a class="ct-s rv" href="https://www.youtube.com/@DevDomina" target="_blank" rel="noopener" style="--d:.16s"><span class="ibox"><svg class="ic"><use href="#i-play"/></svg></span><span><b>YouTube</b><small>@DevDomina</small></span><svg class="ic go"><use href="#i-arrow"/></svg></a>
+        <a class="ct-s rv" href="https://mzcontents.dpdns.org/" style="--d:.24s"><span class="ibox"><svg class="ic"><use href="#i-globe"/></svg></span><span><b>Mz Contents</b><small>mzcontents.dpdns.org</small></span><svg class="ic go"><use href="#i-arrow"/></svg></a>
+      </div>
+    </div>
+  </div></section>
+
+</main>
+
+<footer><div class="wrap">
+  <div class="fgrid">
+    <div class="fbrand">
+      <a class="rlogo" href="#home"><svg viewBox="0 0 48 48" aria-hidden="true"><use href="#logo"/></svg>SteneCorp</a>
+      <p data-i="foot">Built by devs, for people who build.</p>
+    </div>
+    <nav class="fcol" aria-label="Pages">
+      <h4 data-i="f_pages">Pages</h4>
+      <ul>
+        <li><a href="#home" data-i="n_home">Home</a></li>
+        <li><a href="#sites" data-i="sites_h">Our sites</a></li>
+        <li><a href="#about" data-i="ab_h">What we do</a></li>
+        <li><a href="#contact" data-i="n_contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav class="fcol" aria-label="Sites">
+      <h4 data-i="f_sites">Sites</h4>
+      <ul>
+        <li><a href="https://mzcontents.dpdns.org/">Mz Contents</a></li>
+        <li><a href="https://mzcontents.dpdns.org/produtos" data-i="tl_store">Store</a></li>
+        <li><a href="https://mzcontents.dpdns.org/mural" data-i="tl_board">Free board</a></li>
+        <li><a href="https://mzcontents.dpdns.org/mz-apis">API</a></li>
+        <li><a href="https://mz-dev-cloud.github.io/mzdevspace/upload.html" target="_blank" rel="noopener">MzDevSpace Upload</a></li>
+      </ul>
+    </nav>
+    <nav class="fcol" aria-label="Support">
+      <h4 data-i="f_support">Support</h4>
+      <ul>
+        <li><a href="https://wa.me/558276021198" data-wa target="_blank" rel="noopener" data-i="f_wa">WhatsApp support</a></li>
+        <li><a href="https://mzcontents.dpdns.org/criar-site" data-i="f_ordsite">Order a site</a></li>
+        <li><a href="https://mzcontents.dpdns.org/bot-personalizado" data-i="f_ordbot">Order a bot</a></li>
+      </ul>
+    </nav>
+    <nav class="fcol" aria-label="Social">
+      <h4 data-i="f_social">Social</h4>
+      <ul>
+        <li><a href="https://www.instagram.com/mz_gty" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.youtube.com/@DevDomina" target="_blank" rel="noopener">YouTube</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="fbot">
+    <span>SteneCorp &copy; 2026</span>
+    <span class="credits" data-i="cr">Built by <b>Mz</b>, <b>Void</b> and <b>JujuDevs</b></span>
+  </div>
+</div></footer>
+
+<button class="totop" id="totop" type="button" aria-label="Back to top"><svg class="ic"><use href="#i-up"/></svg></button>
+
+<script>
+(function(){
+  var root=document.documentElement, body=document.body;
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---------- textos em português ---------- */
+  var PT={
+    ld:"carregando", n_home:"Início", n_about:"O que fazemos", n_contact:"Contato", n_theme:"Trocar tema",
+    h1a:"A gente cria", h1b:"que vão pro ar.",
+    hero_p:"A SteneCorp é a organização por trás da <strong>Mz Contents</strong>, do <strong>MzDevSpace Upload</strong> e do canal <strong>DevDomina</strong>. Um lugar só pra tudo que a gente faz.",
+    cta1:"Ver nossos sites", cta2:"Ver no YouTube", live:"no ar",
+    hb1:"loja, mural, API", hb2:"links de imagem e áudio", hb3:"vídeos pra devs",
+    sites_h:"Nossos sites", sites_p:"Cada um faz uma coisa. Dá pra usar separado: todos fazem parte da SteneCorp.",
+    mz_p:"Nosso site principal. Compre na <strong>loja</strong>, pegue recursos grátis no <strong>mural</strong>, use a <strong>API</strong> nos seus projetos ou peça um <strong>site ou bot</strong> pra gente.",
+    tl_store:"Loja", d_store:"produtos e packs", tl_board:"Mural grátis", d_board:"recursos sem pagar nada", d_api:"pra usar nos seus projetos",
+    tl_site:"Criação de sites", d_site:"monte o seu do zero", tl_bot:"Criação de bots", d_bot:"um bot feito pra você", mz_btn:"Abrir a Mz Contents",
+    up_p:"Hospedagem de imagens e áudios usando o GitHub. Você envia o arquivo e recebe um link pronto pra usar onde quiser.",
+    lchip:"link direto", s1:"Envie o arquivo", s2:"Ele fica guardado no GitHub", s3:"Copie o link direto e use onde quiser", up_btn:"Abrir o Upload",
+    yt_p:"Vídeos pra aprender fazendo: rodar um bot de WhatsApp no Termux e usar as ferramentas do GitHub do jeito certo.",
+    v1:"Bot de WhatsApp no Termux", v1d:"do zero até rodando", v2:"GitHub do jeito certo", v2d:"ferramentas sem dor de cabeça", yt_btn:"Ver o canal",
+    ab_h:"O que fazemos", ab_p:"A gente quer deixar criar na internet mais fácil.",
+    ab1:"Criar", ab1p:"Sites e bots sob encomenda, do primeiro rascunho até ir pro ar.",
+    ab2:"Compartilhar", ab2p:"Recursos grátis, uma API e hospedagem de arquivos com link direto.",
+    ab3:"Ensinar", ab3p:"Vídeos mostrando como rodar bots e usar o GitHub sem dor de cabeça.",
+    ct_h:"Tem uma ideia? Vamos construir.", ct_p:"Conta no WhatsApp o que você quer criar e a gente responde com os próximos passos.", ct_wa:"Chamar no WhatsApp",
+    foot:"Feito por devs, pra quem constrói.",
+    f_pages:"Páginas", f_sites:"Sites", f_support:"Suporte", f_social:"Redes sociais",
+    f_wa:"Suporte no WhatsApp", f_ordsite:"Pedir um site", f_ordbot:"Pedir um bot",
+    cr:"Feito por <b>Mz</b>, <b>Void</b> e <b>JujuDevs</b>"
+  };
+  var WORDS={en:['sites','bots','tools','APIs'],pt:['sites','bots','ferramentas','APIs']};
+  var META={
+    en:{desc:"SteneCorp: the organization behind Mz Contents, MzDevSpace Upload and the DevDomina YouTube channel.",wa:"Hi, I found you through the SteneCorp site and I would like to know about a service.",h1:"We build sites, bots, tools and APIs that go live.",theme:"Switch theme",top:"Back to top"},
+    pt:{desc:"SteneCorp: a organização por trás da Mz Contents, do MzDevSpace Upload e do canal DevDomina.",wa:"Olá, vim pelo site da SteneCorp e gostaria de saber sobre um serviço.",h1:"A gente cria sites, bots, ferramentas e APIs que vão pro ar.",theme:"Trocar tema",top:"Voltar ao topo"}
+  };
+  var els=[].slice.call(document.querySelectorAll('[data-i]'));
+  els.forEach(function(el){el.setAttribute('data-en',el.innerHTML);});
+  var rot=document.getElementById('rot'), rlist=document.getElementById('rotlist'), rIdx=0, rTimer=null, curLang='en';
+
+  /* ---------- palavras que giram no título ---------- */
+  function measureRot(){
+    var spans=rlist.children; if(!spans[rIdx])return;
+    rot.style.width=spans[rIdx].offsetWidth+'px';
+  }
+  function buildRot(l){
+    rlist.innerHTML=''; WORDS[l].forEach(function(w){var s=document.createElement('span');s.textContent=w;rlist.appendChild(s);});
+    rIdx=0; rlist.style.setProperty('--i',0); measureRot();
+  }
+  function startRot(){
+    if(reduce||rTimer)return;
+    rTimer=setInterval(function(){
+      rIdx=(rIdx+1)%rlist.children.length;
+      rlist.style.setProperty('--i',rIdx); measureRot();
+    },2300);
+  }
+
+  /* ---------- idioma ---------- */
+  var btns=[].slice.call(document.querySelectorAll('.lang button'));
+  var was=[].slice.call(document.querySelectorAll('[data-wa]')), descTag=document.querySelector('meta[name="description"]');
+  function setLang(l,save){
+    if(l!=='pt')l='en'; curLang=l;
+    root.lang=l==='pt'?'pt-BR':'en';
+    els.forEach(function(el){var k=el.getAttribute('data-i');el.innerHTML=(l==='pt'&&PT[k]!==undefined)?PT[k]:el.getAttribute('data-en');});
+    btns.forEach(function(b){b.setAttribute('aria-pressed',b.getAttribute('data-lang')===l?'true':'false');});
+    was.forEach(function(a){a.href='https://wa.me/558276021198?text='+encodeURIComponent(META[l].wa);});
+    if(descTag)descTag.setAttribute('content',META[l].desc);
+    document.getElementById('h1').setAttribute('aria-label',META[l].h1);
+    document.getElementById('theme').setAttribute('title',META[l].theme);
+    document.getElementById('totop').setAttribute('aria-label',META[l].top);
+    buildRot(l);
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){setLang(b.getAttribute('data-lang'),true);});});
+
+  /* ---------- tema claro / escuro ---------- */
+  function setTheme(t,save){
+    root.setAttribute('data-theme',t);
+    var m=document.querySelector('meta[name="theme-color"]'); if(m)m.setAttribute('content',t==='light'?'#F5F7F9':'#0A0E13');
+  }
+  setTheme('dark',false);
+  document.getElementById('theme').addEventListener('click',function(){setTheme(root.getAttribute('data-theme')==='light'?'dark':'light',true);});
+
+  setLang('en',false);
+  window.addEventListener('resize',measureRot);
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(measureRot);
+  window.addEventListener('load',measureRot);
+
+  /* ---------- menu lateral no celular ---------- */
+  var rail=document.getElementById('rail'), scrim=document.getElementById('scrim'), burger=document.getElementById('burger');
+  function menu(open){rail.classList.toggle('open',open);scrim.classList.toggle('show',open);burger.setAttribute('aria-expanded',open?'true':'false');}
+  burger.addEventListener('click',function(){menu(!rail.classList.contains('open'));});
+  scrim.addEventListener('click',function(){menu(false);});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')menu(false);});
+  [].slice.call(document.querySelectorAll('#rnav a')).forEach(function(a){a.addEventListener('click',function(){menu(false);});});
+
+  /* ---------- destaque do menu ao rolar ---------- */
+  var links=[].slice.call(document.querySelectorAll('#rnav a')), map={};
+  links.forEach(function(a){map[a.getAttribute('href').slice(1)]=a;});
+  if('IntersectionObserver' in window){
+    var spy=new IntersectionObserver(function(es){es.forEach(function(e){
+      if(e.isIntersecting&&map[e.target.id]){links.forEach(function(a){a.classList.remove('on');});map[e.target.id].classList.add('on');}
+    });},{rootMargin:'-40% 0px -50% 0px'});
+    Object.keys(map).forEach(function(id){var el=document.getElementById(id);if(el)spy.observe(el);});
+  }
+
+  /* ---------- aparecer ao rolar ---------- */
+  function startReveal(){
+    var items=[].slice.call(document.querySelectorAll('.rv'));
+    if(!('IntersectionObserver' in window)){items.forEach(function(i){i.classList.add('in');});return;}
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12});
+    items.forEach(function(i){io.observe(i);});
+  }
+
+  /* ---------- efeitos do mouse ---------- */
+  document.addEventListener('pointermove',function(e){
+    var t=e.target.closest&&e.target.closest('.card,.tile,.ct-s,.hb');
+    if(t){var r=t.getBoundingClientRect();t.style.setProperty('--mx',(e.clientX-r.left)+'px');t.style.setProperty('--my',(e.clientY-r.top)+'px');}
+  });
+  var stage=document.getElementById('stage');
+  if(stage&&!reduce){
+    stage.addEventListener('pointermove',function(e){
+      var r=stage.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+      stage.style.setProperty('--ry',(x*10)+'deg');stage.style.setProperty('--rx',(-y*10)+'deg');
+    });
+    stage.addEventListener('pointerleave',function(){stage.style.setProperty('--ry','0deg');stage.style.setProperty('--rx','0deg');});
+  }
+
+  /* ---------- voltar ao topo ---------- */
+  var totop=document.getElementById('totop');
+  window.addEventListener('scroll',function(){totop.classList.toggle('show',window.scrollY>700);},{passive:true});
+  totop.addEventListener('click',function(){window.scrollTo({top:0,behavior:reduce?'auto':'smooth'});});
+
+  /* ---------- barra de progresso ---------- */
+  var loader=document.getElementById('loader'), bar=document.getElementById('bar'), pct=document.getElementById('pct');
+  var loaded=document.readyState==='complete', t0=performance.now(), MIN=reduce?300:3800, finished=false;
+  if(!loaded)window.addEventListener('load',function(){loaded=true;});
+  function finish(){
+    if(finished)return; finished=true;
+    bar.style.transform='scaleX(1)'; pct.textContent='100%';
+    setTimeout(function(){
+      loader.classList.add('done'); root.classList.remove('loading'); body.classList.add('go');
+      startReveal(); startRot();
+      setTimeout(function(){loader.hidden=true;},1400);
+    },250);
+  }
+  function tick(now){
+    if(finished)return;
+    var e=Math.min((now-t0)/MIN,1), v=(1-Math.pow(1-e,1.7))*100;
+    if(!loaded)v=Math.min(v,90);
+    bar.style.transform='scaleX('+(v/100)+')'; pct.textContent=Math.floor(v)+'%';
+    if(v>=100){finish();return;}
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+  setTimeout(finish,8000);
+})();
+</script>
+</body>
+</html>
